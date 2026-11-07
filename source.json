@@ -1,0 +1,31 @@
+{
+  "name": "My Personal Apps",
+  "identifier": "com.144volts.personal-apps",
+  "subtitle": "Personal sideload host",
+  "description": "Self-hosted IPA updates via GitHub Releases.",
+  "website": "https://github.com/144volts-stack/ios-sideload-host",
+  "tintColor": "#007AFF",
+  "nsfw": false,
+  "apps": [
+    {
+      "name": "Example App",
+      "bundleIdentifier": "com.example.myapp",
+      "developerName": "Scott LaRoche",
+      "subtitle": "Replace this with your real app",
+      "localizedDescription": "This is a placeholder. Edit source.json with your real app details and IPA download URLs from GitHub Releases.",
+      "iconURL": "",
+      "tintColor": "#007AFF",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-06",
+          "localizedDescription": "Initial placeholder release.",
+          "downloadURL": "https://github.com/144volts-stack/ios-sideload-host/releases/download/v1.0.0/ExampleApp.ipa",
+          "size": 0,
+          "minOSVersion": "14.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
